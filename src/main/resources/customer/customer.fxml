@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="customerBorderPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer.CustomerController">
+   <left>
+      <VBox style="-fx-background-color: #272727;" BorderPane.alignment="CENTER">
+         <children>
+            <JFXDrawer fx:id="taskDrawer" defaultDrawerSize="150.0" maxHeight="1.7976931348623157E308" overLayVisible="false" prefHeight="1020.0" prefWidth="40.0" style="-fx-background-color: #272727;" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #121212;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="980.0" prefWidth="1920.0" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <TableView fx:id="customerTableView" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1080.0" prefWidth="1845.0" stylesheets="@style.css" VBox.vgrow="ALWAYS">
+                    <columns>
+                      <TableColumn fx:id="customerNameCol" minWidth="-1.0" prefWidth="240.0" text="Customer Name" />
+                      <TableColumn id="contactNameCol" fx:id="contactNameCol" minWidth="240.0" prefWidth="240.0" text="Contact Name" />
+                        <TableColumn id="addressCol" fx:id="addressCol" minWidth="240.0" prefWidth="240.0" text="Address" />
+                        <TableColumn id="cityCol" fx:id="cityCol" minWidth="239.0" prefWidth="239.0" text="City" />
+                        <TableColumn id="statCol" fx:id="stateCol" minWidth="240.0" prefWidth="240.0" text="State" />
+                        <TableColumn id="zipCodeCol" fx:id="zipCodeCol" minWidth="240.0" prefWidth="240.0" text="Zip Code" />
+                        <TableColumn id="phoneNumberCol" fx:id="phoneNumberCol" minWidth="240.0" prefWidth="240.0" text="Phone Number" />
+                        <TableColumn id="cellPhoneNumberCol" fx:id="cellPhoneNumberCol" minWidth="240.0" prefWidth="240.0" text="Cell Phone Number" />
+                    </columns>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </TableView>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <HBox style="-fx-background-color: #272727;" BorderPane.alignment="CENTER">
+         <children>
+            <JFXHamburger fx:id="taskBarHamburger" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="100.0" prefWidth="150.0" />
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

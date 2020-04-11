@@ -1,0 +1,24 @@
+04-04 20:51:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
+04-04 20:51:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
+04-04 20:53:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
+04-04 20:53:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
+04-04 20:53:28 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
+04-04 20:53:28 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
+04-04 20:53:51 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
+04-04 20:53:51 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]

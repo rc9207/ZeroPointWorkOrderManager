@@ -1,0 +1,26 @@
+.table-view {
+  -fx-background-color: #828282;
+}
+
+.table-view .column-header-background {
+  -fx-background-color: linear-gradient(#272727 0%, #828282 100%);
+}
+
+.table-view .column-header-background .filler {
+  -fx-background-color: linear-gradient(#272727 0%, #828282 100%);
+}
+
+.table-view .column-header-background .label {
+  -fx-background-color: transparent;
+  -fx-text-fill: #DDEDF4;
+}
+
+.table-view .column-header {
+  -fx-background-color: transparent;
+}
+
+.button {
+  -fx-background-color: #2D2D2D;
+  -fx-text-fill: White;
+  -fx-border-radius: 20;
+}

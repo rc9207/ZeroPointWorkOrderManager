@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1080.0" prefWidth="1846.0" style="-fx-background-color: #121212;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer.AddCustomer">
+   <children>
+      <VBox prefHeight="1080.0" prefWidth="1845.0">
+         <children>
+            <HBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="100.0" prefWidth="1080.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="110.0" text="Customer Name:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" top="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <JFXTextField fx:id="customerNameField" focusColor="#101011" prefHeight="25.0" prefWidth="350.0" style="-fx-background-color: #FFFFFF;" unFocusColor="#101011">
+                     <HBox.margin>
+                        <Insets top="50.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <Label prefHeight="20.0" prefWidth="98.0" text="Contact Name:" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="100.0" top="50.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="contactNameField" focusColor="#4d4d4d" prefHeight="25.0" prefWidth="373.0" style="-fx-background-color: #FFFFFF;">
+                     <HBox.margin>
+                        <Insets top="50.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+               </children>
+            </HBox>
+            <HBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="100.0" prefWidth="1845.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="61.0" text="Address:" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" top="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <JFXTextField fx:id="addressField" focusColor="#4d4d4d" prefHeight="25.0" prefWidth="553.0" style="-fx-background-color: #FFFFFF;">
+                     <HBox.margin>
+                        <Insets top="50.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <Label prefHeight="20.0" prefWidth="37.0" text="City: " textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="100.0" top="50.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="cityField" focusColor="#4d4d4d" prefHeight="25.0" prefWidth="245.0" style="-fx-background-color: #FFFFFF;">
+                     <HBox.margin>
+                        <Insets top="50.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <Label prefHeight="20.0" prefWidth="42.0" text="State:" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="100.0" top="50.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="stateField" focusColor="#4d4d4d" style="-fx-background-color: #FFFFFF;">
+                     <HBox.margin>
+                        <Insets top="50.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <Label prefHeight="20.0" prefWidth="70.0" text="Zip Code: " textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="100.0" top="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <JFXTextField fx:id="zipCodeField" focusColor="#4d4d4d" style="-fx-background-color: #FFFFFF;">
+                     <HBox.margin>
+                        <Insets top="50.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+               </children>
+            </HBox>
+            <HBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="100.0" prefWidth="1080.0">
+               <children>
+                  <Label prefHeight="20.0" prefWidth="103.0" text="Phone Number:" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" top="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <JFXTextField fx:id="phoneNumberField" focusColor="#4d4d4d" prefHeight="25.0" prefWidth="297.0" style="-fx-background-color: #ffffff;">
+                     <HBox.margin>
+                        <Insets top="50.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <Label prefHeight="20.0" prefWidth="129.0" text="Cell Phone Number:" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="100.0" top="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <JFXTextField fx:id="cellPhoneNumberField" focusColor="#4d4d4d" prefHeight="25.0" prefWidth="254.0" style="-fx-background-color: #ffffff;">
+                     <HBox.margin>
+                        <Insets top="50.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+               </children>
+            </HBox>
+            <HBox maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="100.0" prefWidth="1920.0">
+               <children>
+                  <JFXButton fx:id="saveCustomerButton" buttonType="RAISED" onAction="#saveCustomerButtonPushed" prefHeight="50.0" prefWidth="170.0" stylesheets="@style.css" text="Save Customer">
+                     <HBox.margin>
+                        <Insets left="10.0" top="25.0" />
+                     </HBox.margin>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children></VBox>
+   </children>
+</HBox>

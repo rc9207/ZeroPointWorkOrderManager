@@ -1,0 +1,12 @@
+04-04 20:36:57 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
+04-04 20:36:57 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
+04-04 20:42:07 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
+04-04 20:42:07 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMER" not found; SQL statement:
+INSERT INTO CUSTOMER(CUSTOMER_NAME, CONTACT_NAME, ADDRESS, CITY, STATE, ZIP_CODE, PHONE_NUMBER, CELL_PHONE_NUMBER) VALUES (?, ?, ?, ?, ?, ?, ?, ?) [42102-148]
